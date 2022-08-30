@@ -1,0 +1,551 @@
+.forget {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #068bf7;
+  margin-top: 8px;
+}
+
+.headingStyle {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 42px;
+  letter-spacing: 0.025em;
+  color: #1e1e1e;
+}
+
+.loginText {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #068bf7;
+}
+
+.loginSubTxt {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #818181;
+}
+
+.labelStyle {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #808080;
+}
+
+.inputStyle {
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  height: 60px;
+}
+
+.btnStyle {
+  height: 60px;
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #068bf7;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 4px 4px rgba(60, 80, 224, 0.15);
+  border-radius: 6px;
+  background: #068bf7;
+}
+.signInBtnStyle {
+  background: #068bf7;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 4px 4px rgba(60, 80, 224, 0.15);
+  border-radius: 6px;
+  height: 60px;
+  width: 29rem;
+}
+
+.sidebarStyling {
+  background: #ffffff;
+  box-shadow: 9px 38px 43px rgba(0, 0, 0, 0.1);
+}
+
+.sidebarLogo {
+  position: absolute;
+  width: 12px;
+  height: 13.5px;
+  left: 23px;
+  top: 23.97px;
+}
+
+.siderbar-header {
+  position: absolute;
+  width: 18.88px;
+  height: 18.88px;
+  left: -7px;
+  top: -1px;
+}
+
+.sidebarHeader {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14.0989px;
+  line-height: 18px;
+  padding-left: 21px;
+  letter-spacing: 0.025em;
+  color: #1e1e1e;
+}
+
+.logoItems {
+  position: absolute;
+  width: 120.74px;
+  height: 18.88px;
+  left: 63px;
+  top: 23px;
+}
+
+.dashbordBtnStyle {
+  background: #068bf7;
+  box-shadow: 2px 4px 11px rgba(60, 80, 224, 0.25);
+  border-radius: 7px;
+  margin: 6rem 0 0 2rem;
+  width: 176px;
+}
+
+.userAccdBtnStyle {
+  background: #ffffff;
+  /* box-shadow: 2px 4px 11px rgba(60, 80, 224, 0.25); */
+  /* border-radius: 7px; */
+  margin: 2rem 0 0 0rem;
+  border-width: 0;
+  width: 176px;
+}
+.btn:hover {
+  color: white;
+  background: #068bf7;
+}
+
+.daashboardBtnLogo {
+  margin: 0 20px 2px 0px;
+  height: 15px;
+}
+
+.navBar {
+  background: #ffffff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.05);
+  width: 1146px;
+  height: 59px;
+}
+
+.useNameCon {
+  width: 132px;
+  height: 35px;
+  background: #f3f3f3;
+  border-radius: 5px;
+  margin: 1rem 1rem 0 0;
+}
+
+.userName {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #373737;
+  margin: 6px;
+}
+
+.cardStyle {
+  position: absolute;
+  width: 257px;
+  height: 96px;
+  background: #068bf7;
+  box-shadow: 0px 12.4302px 22.948px rgba(60, 80, 224, 0.25);
+  border-radius: 9.56168px;
+  margin: 2rem;
+}
+
+.allUsersStyle {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.191234px;
+  margin: 0 0 0 2rem;
+  color: #ffffff;
+}
+
+.cardContainers {
+  width: 18rem;
+}
+
+.allUsersNoStyle {
+  position: absolute;
+  width: 66px;
+  height: 35px;
+  margin: 23px 0 0 31px;
+  color: white;
+  background-color: #62a9e3a7;
+  border-radius: 5.56168px;
+  padding: 5px 0 7px 14px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.adminCardStyle {
+  position: absolute;
+  width: 257px;
+  height: 96px;
+  background: #fe556f;
+  box-shadow: 0px 12.4302px 22.948px rgba(60, 80, 224, 0.25);
+  border-radius: 9.56168px;
+  margin: 2rem;
+}
+
+.totalUserStyle {
+  position: absolute;
+  width: 257px;
+  height: 96px;
+  background: #f08d19;
+  box-shadow: 0px 12.4302px 22.948px rgba(60, 80, 224, 0.25);
+  border-radius: 9.56168px;
+  margin: 2rem;
+}
+
+.allAdminStyle {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.191234px;
+  margin: 0 0 0 2rem;
+  color: #ffffff;
+}
+
+.totalStyle {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.191234px;
+  margin: 0 0 0 2rem;
+  color: #ffffff;
+}
+
+.allAdminNoStyle {
+  position: absolute;
+  width: 66px;
+  height: 35px;
+  margin: 23px 0 0 31px;
+  color: white;
+  background-color: #d896a05e;
+  border-radius: 5.56168px;
+  padding: 5px 0 7px 14px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.totalUserNoStyle {
+  position: absolute;
+  width: 66px;
+  height: 35px;
+  margin: 23px 0 0 31px;
+  color: white;
+  background-color: #dfaf78ca;
+  border-radius: 5.56168px;
+  padding: 5px 0 7px 14px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.chart {
+  margin-top: 10rem;
+  margin-left: 2rem;
+}
+
+.mainContent {
+  background: #ffffff;
+  box-shadow: 0px 16px 39px rgba(0, 0, 0, 0.05);
+  border-radius: 0px 0px 5px 5px;
+  margin: 6rem 0rem 0rem 5rem;
+  width: 95rem;
+}
+
+.userFont {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #07003b;
+  margin: 5rem 0 -5rem 5rem;
+}
+
+.userBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.newButton {
+  height: 46px;
+  width: 106px;
+  width: 9rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background: #068bf7;
+  box-shadow: 0px 4px 4px rgba(60, 80, 224, 0.15);
+  border-radius: 6px;
+  justify-content: center;
+  text-align: center;
+  margin: 5rem 5rem -4rem 0rem;
+}
+
+.tableContent {
+  margin-top: 2rem;
+}
+
+.editButton {
+  background-color: #e9f5ff;
+  color: #6ebbfb;
+  width: 6rem;
+  font-weight: 400;
+}
+
+.deleteButton {
+  background-color: #ffeaed;
+  color: #ff536d;
+  margin-left: 1rem;
+  width: 6rem;
+  font-weight: 400;
+}
+
+.user,
+.email,
+.role,
+.status,
+.action {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #868686;
+  padding: 1rem;
+}
+.table {
+  padding: 1rem 1rem 1rem 4rem;
+}
+.modalWrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.popup-box {
+  position: absolute;
+  width: 417px;
+  height: 493px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  position: relative;
+}
+.popup-boxNew {
+  position: absolute;
+  width: 417px;
+  height: 611px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  position: relative;
+}
+
+.popup-heading {
+  display: flex;
+  justify-content: space-between !important;
+  width: 100%;
+}
+
+.btn-close {
+  float: right;
+  font-size: 16px;
+}
+
+.newUser {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.contentStyle {
+  /* background: #ffffff; */
+  height: 60px;
+  width: 380px;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.UserModalWrapper {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  z-index: 2;
+}
+
+.user-box {
+  width: 350px;
+  min-height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  margin-right: 1rem;
+  margin-top: 3.8rem;
+  float: right;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 7rem;
+  background-color: skyblue;
+  position: relative;
+}
+
+.profileImage {
+  position: absolute;
+  top: 4rem;
+  bottom: 0;
+  left: 40%;
+  right: 50%;
+  align-items: center;
+}
+
+.popUpAvatar {
+  width: 90px;
+}
+
+.popUp-content {
+  padding: 1rem;
+  margin-top: 5rem;
+}
+
+.profile-head {
+  color: #279bf8;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 1rem;
+}
+
+.textName {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2px;
+  color: #868686;
+}
+
+.profileName {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #373737;
+}
+
+.divider {
+  height: 2px;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+}
+
+.logOutImg {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin: 7px 7px 0 1px;
+}
+
+.logOutTxt {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2px;
+  color: #373737;
+  margin: 4px 0 0 27px;
+}
+
+.logoutArrow {
+  position: absolute;
+  height: 19px;
+  margin: 5px 0 0 304px;
+}
+
+.editIconStyle {
+  height: 12px;
+  width: 12px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.charts {
+  position: absolute;
+  width: 819px;
+  height: 431px;
+  background: #ffffff;
+  box-shadow: 0px 27px 49px -28px rgb(0 0 0 / 5%);
+  border-radius: 10px;
+  margin: 10rem 9rem 4rem 3rem;
+}
+
+.eyeBtn{
+  margin: -5rem 0 0rem 26rem;
+}
