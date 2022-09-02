@@ -86,6 +86,7 @@
   height: 13.5px;
   left: 23px;
   top: 23.97px;
+  cursor: pointer;
 }
 
 .siderbar-header {
@@ -113,8 +114,8 @@
   height: 18.88px;
   left: 63px;
   top: 23px;
+  cursor: pointer;
 }
-
 .dashbordBtnStyle {
   background: #068bf7;
   box-shadow: 2px 4px 11px rgba(60, 80, 224, 0.25);
@@ -154,8 +155,9 @@
   background: #f3f3f3;
   border-radius: 5px;
   margin: 1rem 1rem 0 0;
-}
+  cursor: pointer;
 
+}
 .userName {
   font-family: "Rubik";
   font-style: normal;
@@ -189,8 +191,9 @@
 
 .cardContainers {
   width: 18rem;
+  border-color: #ffeded73;
+  cursor: pointer;
 }
-
 .allUsersNoStyle {
   position: absolute;
   width: 66px;
@@ -505,11 +508,11 @@
 
 .logOutImg {
   width: 15px;
+  color: black;
   height: 15px;
   position: absolute;
   margin: 7px 7px 0 1px;
 }
-
 .logOutTxt {
   font-family: "Rubik";
   font-style: normal;
@@ -519,17 +522,22 @@
   letter-spacing: 0.2px;
   color: #373737;
   margin: 4px 0 0 27px;
+  cursor: pointer;
+}
+.logOutSection {
+  cursor: pointer;
 }
 
 .logoutArrow {
   position: absolute;
   height: 19px;
   margin: 5px 0 0 304px;
+  color: black;
 }
 
 .editIconStyle {
-  height: 12px;
-  width: 12px;
+  color: black;
+  cursor: pointer;
 }
 
 ul {
@@ -546,6 +554,76 @@ ul {
   margin: 10rem 9rem 4rem 3rem;
 }
 
-.eyeBtn{
+.eyeBtn {
   margin: -5rem 0 0rem 26rem;
 }
+a {
+  text-decoration: none;
+}
+.link {
+  display: flex;
+  color: black;
+  padding: 5px 10px;
+  width: 176px;
+  height: 38px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.link:hover {
+  background: #068bf7;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  color: white;
+}
+.notOpned{
+  display: flex;
+  color: black;
+  padding: 5px 10px;
+  width: 40px;
+  height: 38px;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: -15px;
+}
+.active {
+  background: #068bf7;
+  box-shadow: 2px 4px 11px rgba(60, 80, 224, 0.25);
+  color: white;
+}
+
+.deshboardTxt{
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 6px 0 0 0;;
+}
+.profileEdit{
+  margin: -3rem 0 0 4rem;
+  background: rgb(249, 244, 236);
+  border-radius: 12px;
+  padding: 5px;
+  height: 23px;
+  width: 22px;
+  cursor: pointer;
+}
+.close{
+  cursor: pointer;
+  margin: 2rem 8rem 0 0;
+  background-color: #5c53b485;
+  color: black;
+  border-radius: 6px;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+}
+/* .dashoardBtnNtO{
+  color: black;
+}
+.dashoardBtnNtO .active {
+  background: #068bf7;
+  box-shadow: 2px 4px 11px rgba(60, 80, 224, 0.25);
+  color: white;
+} */
